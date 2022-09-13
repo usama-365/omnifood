@@ -1,0 +1,64 @@
+/*
+
+01. Typography system
+
+    FONT-SIZE SYSTEM (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+    FONT-WEIGHTS
+    Default: 400
+
+    LINE-HEIGHT
+    Default: 1
+
+02. Colors
+
+    PRIMARY
+    #e67e22
+
+    TINTS
+
+    SHADES
+
+    GRAYS
+    #555
+
+03. Images
+
+    SOURCES
+    unsplash.com
+    uifaces.com
+
+04. Icons
+
+05. Shadows
+
+06. Border Radius
+
+07. Whitespace
+
+    SPACING SYSTEM (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /*
+    Considering the base font size set by user is default 16px
+    It'll make 1 REM = 10px so we can work with REMs easily
+    But it'll also take into consideration the user base font size
+    */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
