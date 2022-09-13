@@ -1,4 +1,4 @@
-# Omnifood
+# Omnifood (Portfolio Project, Dev)
 
 ## About Omnifood
 
