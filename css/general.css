@@ -37,6 +37,8 @@
     GRAYS
     #555
     #333
+    #888
+    #767676 (Lightest gray allowed on white)
     #6f6f6f (Lightest gray allowed on #fdf2e9)
 
 03. Images
@@ -125,6 +127,10 @@ body {
 
 .grid--4-cols {
     grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .justify-end {
