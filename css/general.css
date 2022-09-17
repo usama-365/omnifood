@@ -81,6 +81,7 @@ html {
     But it'll also take into consideration the user base font size
     */
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
