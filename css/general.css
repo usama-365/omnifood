@@ -94,6 +94,14 @@ body {
     column-gap: 6.4rem;
 }
 
+.grid:last-child {
+    margin-bottom: 0;
+}
+
+.grid:not(:last-child) {
+    margin-bottom: 9.6rem;
+}
+
 .grid--align-center {
     align-items: center;
 }
@@ -106,7 +114,15 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.heading-primary,.heading-secondary {
+.grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.justify-end {
+    justify-self: end;
+}
+
+.heading-primary, .heading-secondary {
     color: #333;
     letter-spacing: -0.5px;
 }
@@ -183,6 +199,25 @@ body {
     border-color: transparent;
 }
 
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.list-item {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.list-icon {
+    font-size: 3rem;
+    color: #cf711f;
+}
+
 .mr-sm {
     margin-right: 1.6rem !important;
 }
@@ -197,7 +232,7 @@ body {
 }
 
 strong {
-    font-weight: 500    ;
+    font-weight: 500;
 }
 
 .tag {
