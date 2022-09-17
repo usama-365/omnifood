@@ -72,6 +72,24 @@
     display: none;
 }
 
+/* Sticky */
+.sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+    height: 8rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.06);
+}
+
+.section-hero.sticky {
+    margin-top: 96rem;
+}
+
 /*****************************/
 /* Hero section */
 /*****************************/
